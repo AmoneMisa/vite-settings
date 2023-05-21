@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="header-title">
     <h1>{{ msg }}</h1>
   </div>
 </template>
@@ -17,9 +17,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .header {
-    h1 {
+  .header-title {
       color: #7a9fc0;
-    }
   }
 </style>
